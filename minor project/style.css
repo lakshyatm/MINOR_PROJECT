@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+
+
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+*{font-family: 'Handlee', cursive;}
+
+.box{
+    background:rgba(245, 235, 255, 0.897);
+    
+}
+
+.box2{
+    background:rgba(255, 215, 215, 0.8);
+    
+}
+#wl{
+    color:red;
+}
+body {
+    
+    background:url('assest/b9.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-right:0px;
+
+}
+.modal-img{
+    background:url('assest/order.jpg') no-repeat center center fixed;
+}
+.brand {
+    text-align: left;
+    text-shadow: 1px 1px 1px black;
+    font-size:5em;
+    font-weight: 700;
+    line-height: normal;
+    color:white;
+    
+}
+
+.address-bar{
+       
+    
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: normal;
+    color:white;
+}
+
+.bor{
+    border: .5px solid black;
+}
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+.font-size-18 {
+    font-size: 18px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.size{
+    width:200px;
+}
+
+.cart-img{
+    width: 100%;
+    height:230px
+}
+/* Color Template  */
+
+.color-top{
+    color:white;
+    text-shadow: 1px 1px 1px grey;
+    font-size: 1.9em;
+}
+.color-primary {
+    color: #003859;
+}
+
+.color-primary-bg {
+    background: #003859;
+}
+
+.color-second {
+    color: #00A5C4;
+}
+
+.color-second-bg {
+    background: #00A5C4;
+  
+}
+
+.color-yellow {
+    color: #FFD289;
+}
+
+.color-yellow-bg {
+    background: #FFD289;
+}
+
+
+/*  top sale template   */
+#top-sale .owl-carousel .item .product a {
+    overflow: hidden;
+}
+
+#top-sale .owl-carousel .item .product img:hover {
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+    position: absolute;
+    top: 30%;
+    outline: none;
+}
+
+.last{
+    font-size: 2.2em;
+}
+
+.bor-bottom{
+    width:300px;
+    border-bottom: 1px solid red;
+}
+/*   Special Price Section Template */
+#special-price .grid .grid-item {
+    margin-right: 1.2rem;
+    margin-top: 1rem;
+}
+
+#coming-soon .owl-carousel .item .product img:hover {
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:475px){
+    .brand{font-size:2.125em;}
+    .address-bar{font-size:1em;}
+    .size{width:120px;}
+    .cart-img{height:250px;}
+    .last{font-size: 1em;}
+}
+
+
