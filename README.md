@@ -1,5 +1,4 @@
 # MINOR_PROJECT
-# MINOR_PROJECT
 Platform Used
 Front-End
 
