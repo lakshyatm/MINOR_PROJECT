@@ -40,7 +40,10 @@ This takes you to the `.md` file where you can make your changes and [create a p
 The best way to contribute is to "clone" your fork of contact-app to your development area. That sounds like some jargon, but "forking" on GitHub means 
 "making a copy of that repo to your account" and "cloning" means "copying that code to your environment so you can work on it".
 
-
+1. [Set up Git](https://help.github.com/en/articles/set-up-git) (Windows, Mac & Linux)
+2. Go to the [MINOR_PROJECT repo](lakshyatm/MINOR_PROJECT)
+3. [Fork it](https://help.github.com/en/articles/fork-a-repo)
+4. [Clone](https://github.com/lakshyatm/MINOR_PROJECT.git) your forked contact-app repo: git@github.com:<your-name>/MINOR_PROJECT.git.
 5. Checkout the "develop" branch. At this point you are ready to start making changes.
 6. Fix existing bugs on the Issue tracker after taking a look to see nobody else is working on them.
 7. [Commit](https://help.github.com/en/articles/adding-a-file-to-a-repository-using-the-command-line) the files
